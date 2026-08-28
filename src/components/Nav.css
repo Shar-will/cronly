@@ -1,0 +1,68 @@
+.cronly-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: min(955px, calc(100% - 32px));
+  height: 71px;
+  padding: 3px 3px 3px 26px;
+  border: 1.47px solid #12132e;
+  border-radius: 59px;
+  background: linear-gradient(to bottom, #06060f, #030308);
+  box-shadow: 0 8px 3px rgb(0 0 0 / 0.15);
+}
+
+.cronly-nav-wordmark {
+  display: block;
+  width: 115px;
+  height: 39px;
+  object-fit: contain;
+  mix-blend-mode: screen;
+}
+
+.cronly-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+
+.cronly-nav-links a {
+  color: #e4e5f2;
+  font-size: 17.66px;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: opacity 280ms cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+.cronly-nav-links a:hover {
+  opacity: 0.7;
+}
+
+.cronly-nav-github {
+  display: block;
+  width: 18px;
+  height: 18px;
+}
+
+.cronly-nav-github img {
+  display: block;
+  width: 18px;
+  height: 18px;
+}
+
+@media (max-width: 860px) {
+  .cronly-nav {
+    width: min(100% - 24px, 955px);
+    height: auto;
+    min-height: 64px;
+    padding: 10px 10px 10px 18px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .cronly-nav-links {
+    display: none;
+  }
+}
