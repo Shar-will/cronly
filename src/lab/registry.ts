@@ -1,6 +1,7 @@
 import type { ComponentType } from 'react'
 import { ButtonLab } from '../pages/ButtonLab'
 import { HeroLab } from '../pages/HeroLab'
+import { HeroV2Lab } from '../pages/HeroV2Lab'
 import { NavLab } from '../pages/NavLab'
 import { ShaderLab } from '../pages/ShaderLab'
 
@@ -23,6 +24,13 @@ export const labs: Lab[] = [
     description: 'Landing frame: shader, mask, type, illustration',
     path: '/hero',
     Component: HeroLab,
+  },
+  {
+    id: 'hero-v2',
+    title: 'Hero v2',
+    description: 'Shader clipped to the bottom circle',
+    path: '/hero-v2',
+    Component: HeroV2Lab,
   },
   {
     id: 'nav',

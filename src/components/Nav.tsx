@@ -4,9 +4,9 @@ import { Button } from './Button'
 import './Nav.css'
 
 const LINKS = [
-  { href: '#pricing', label: 'Pricing' },
   { href: '#features', label: 'Features' },
   { href: '#how-it-works', label: 'How It Works' },
+  { href: '#pricing', label: 'Pricing' },
   { href: '#docs', label: 'Docs' },
 ] as const
 
